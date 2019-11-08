@@ -1,0 +1,125 @@
+#item3 .fwShowcase_container {
+	margin: auto;
+	width: 840px;
+}
+#fwShowcase_overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	cursor: pointer;
+	overflow: hidden;
+}
+#fwShowcase {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-style: solid;
+	z-index: 110;
+}
+#fwShowcase img {
+	position: absolute;
+	border: 0;
+	z-index: 115;
+}
+#item3 ul.fwShowcase_thumbs {
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+#item3 ul.fwShowcase_thumbs li {
+	position: relative;
+	display: inline;
+	float: left;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 0 solid transparent;
+}
+#item3 ul.fwShowcase_thumbs a {
+	display: block;
+	position: relative;
+	left: -10px;
+	top: -10px;
+	width: 120px;
+	height: 120px;
+	text-decoration: none;
+}
+* html #item3 ul.fwShowcase_thumbs a {
+	width: 100px;
+	height: 100px;
+}
+#item3 ul.fwShowcase_thumbs li:hover, #item3 ul.fwShowcase_thumbs li.hover {
+	border: 0 solid transparent;
+}
+#item3 ul.fwShowcase_thumbs li img {
+	display: block;
+	position: absolute;
+	border: 0;
+}
+.fwShowcase_info {
+	position: absolute;
+	display: inline;
+	top: 10px;
+	right: 10px;
+	padding: 3px;
+	background: #000;
+	color: #fff;
+	font-size: 10px;
+	font-family: Helvetica,Arial,sans-serif;
+	z-index: 130;
+}
+.fwShowcase_prev a, .fwShowcase_next a {
+	text-decoration: none;
+}
+#fwShowcase_image > .fwShowcase_prev, #fwShowcase_image > .fwShowcase_next {
+	display: block;
+	position: absolute;
+	z-index: 120;
+}
+.fwShowcase_controls {
+	position: absolute;
+	height: 26px;
+	z-index: 130;
+}
+.fwShowcase_controls a {
+	position: absolute;
+	z-index: 120;
+	bottom: 0px;
+	width: 28px;
+	height: 26px;
+	background-image: url(Resources/controls.png);
+	repeat: no-repeat;
+}
+.fwShowcase_controls div {
+	position: relative;
+	float: left;
+	width: 28px;
+	height: 26px;
+}
+.fwShowcase_close a {
+	background-position: -85px 0;
+}
+.fwShowcase_close {
+	margin-left: 2px;
+}
+.fwShowcase_next a {
+	background-position: -55px 0;
+}
+.fwShowcase_play a {
+	background-position: -27px 0;
+}
+.fwShowcase_prev a {
+	background-position: 0 0;
+}
+.fwShowcase_prev {
+}
+.fwShowcase_cred {
+	display: none;
+}
